@@ -2,11 +2,11 @@
 {
     public class Empleado
     {
-        public int Id { get; set; }
-        public int Nombre { get; set; }
+        public string Id { get; set; }
+        public string Nombre { get; set; }
         public int Telefono { get; set; }
         public int DUI { get; set; }
-        public int Direccion { get; set; }
-        public int Email { get; set; }
+        public  string Direccion { get; set; }
+        public string Email { get; set; }
     }
 }

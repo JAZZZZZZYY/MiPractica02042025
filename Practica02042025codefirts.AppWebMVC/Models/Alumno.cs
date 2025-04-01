@@ -3,12 +3,12 @@
     public class Alumno
     {
         public int Id { get; set; }
-        public int Nombre { get; set; }
-        public int Codigo { get; set; }
-        public int Direccion { get; set; }
-        public int Email { get; set; }
+        public string Nombre { get; set; }
+        public string Codigo { get; set; }
+        public string Direccion { get; set; }
+        public string Email { get; set; }
         public DateTime FechaNacimiento { get; set; }
 
-        public int AñoEstudio{ get; set; }
+        public string AñoEstudio{ get; set; }
     }
 }
